@@ -48,7 +48,7 @@ const data = [
   },
 ];
 
-function TableGrid() {
+export default function TableGrid(): JSX.Element {
   return (
     <Layout>
       <main className="container margin-vert--xl">
@@ -67,5 +67,3 @@ function TableGrid() {
     </Layout>
   );
 }
-
-export default TableGrid;
